@@ -7,12 +7,11 @@
     {
       "id": "total_multiplier_die",
       "title": "Echoing Die",
-      "description": "Multiplies your total score by the combined value of all dice rolled this turn. Activates at the end of the round.",
+      "description": "Multiplies your total score by the combined value of all dice rolled this turn.",
       "start_item": true,
       "in_starting_pack": true,
       "rarity": 2,
       "prio": 4,
-      "sprite": "sprites/cool_die.png",
       "faces": [
         {"value": 1},
         {"value": 2},
@@ -21,19 +20,11 @@
         {"value": 5},
         {"value": 6}
       ],
-      "effect": {
-        "type": "mult_all",
-        "value": 1
-      }
-    }
-  ],
-  "starter_packs": [
-    {
-      "id": "echoing_starter",
-      "title": "Echo Pack",
-      "description": "Start with the Echoing Die in your pool.",
-      "dice": [
-        "total_multiplier_die"
+      "on_eval": [
+        {
+          "type": "mult_all",
+          "value": 1
+        }
       ]
     }
   ],
