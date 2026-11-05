@@ -28,5 +28,20 @@
       ]
     }
   ],
+  "packs": [
+    {
+      "id": "echo_starter_pack",
+      "title": "Echo Pack",
+      "description": "Start your run with the Echoing Die.",
+      "dice": [
+        "total_multiplier_die",
+        "d6",
+        "d6",
+        "d6",
+        "d4",
+        "d4"
+      ]
+    }
+  ],
   "rings": []
 }
