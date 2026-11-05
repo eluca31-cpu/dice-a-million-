@@ -9,7 +9,7 @@
             "title": "Echoing Die",
             "description": "Multiplies your total score by 2.",
             "rarity": 1,
-            "prio": 10000,
+            "prio": 1000,
             "sprite": "sprites/cool_die.png",
             "faces": [
                 { "value": 1 },
