@@ -1,7 +1,7 @@
 {
     "name": "Custom Dice Pack",
     "author": "eluca31-cpu",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Adds the Echoing Die to the game.",
     "dice": [
         {
@@ -10,8 +10,8 @@
             "description": "Multiplies your total score by the combined value of all dice rolled this turn.",
             "rarity": 1,
             "prio": 100,
-            "sprite": "sprites/echoing_die.png",
-            "faces": [
+            "sprite": "sprites/cool_die.png",
+            "faces": [    
                 {"value": 1},
                 {"value": 2},
                 {"value": 3},
